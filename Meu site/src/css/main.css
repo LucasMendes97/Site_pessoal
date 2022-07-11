@@ -1,0 +1,61 @@
+html,
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(197, 197, 197));
+    height: 100%;
+    margin: 0%;
+}
+
+#conteiner_principal {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: 50%;
+    padding: 0%;
+    height: 100%;
+}
+
+#foto_perfil {
+    width: 20%;
+    margin-right: 1%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}
+
+#texto_apresentacao {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botoes {
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    height: 5%;
+}
+
+button {
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
+button:hover {
+    box-shadow: rgb(255, 0, 191) 0px 0px 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(197, 197, 197));
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+}

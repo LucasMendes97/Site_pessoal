@@ -15,7 +15,8 @@ body {
 
 #foto_perfil {
     width: 20%;
-    margin-right: 1%;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 
 h1 {
@@ -23,14 +24,17 @@ h1 {
     font-size: 150%;
 }
 
-#texto_apresentacao {
+#conteiner_apresentacao {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    font-size: 90%;
 }
 
-#botoes {
+#menu {
     background-color: rgb(0, 0, 0);
-    display:flex;
+    display: flex;
     height: 5%;
+    border-radius: 1%;
 }
 
 button {

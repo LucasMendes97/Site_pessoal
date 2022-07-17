@@ -17,6 +17,15 @@ body {
     width: 20%;
     border-radius: 50%;
     border: 3px solid white;
+    margin: 0%;
+}
+
+#perfil_e_capa{
+    align-items: center;
+    padding: 0%;
+    background-image: url(/Meu\ site/midia/pexels-markus-spiske-2004161.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1 {
